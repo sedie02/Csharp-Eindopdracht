@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Dierentuin",
+    "\\Dierentuin\\Models",
+    "\\Dierentuin\\Models\\Domain"
   ],
-  "SelectedNode": "\\C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht",
+  "SelectedNode": "\\Dierentuin\\Models\\Domain\\Zoo.cs",
   "PreviewInSolutionExplorer": false
 }
