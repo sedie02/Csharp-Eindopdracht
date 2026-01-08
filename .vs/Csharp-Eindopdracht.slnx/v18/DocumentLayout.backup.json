@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Migrations\\20251231183821_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dierentuin\\Migrations\\20251231183821_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\migrations\\20251231183821_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\migrations\\20251231183821_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\data\\seed\\zooseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,8 +147,7 @@
               "RelativeToolTip": "Dierentuin\\Data\\Seed\\ZooSeeder.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA5wA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:35:38.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T15:35:38.623Z"
             },
             {
               "$type": "Document",

@@ -80,5 +80,17 @@ namespace Dierentuin.Models.Domain
 
             return results;
         }
+
+
+        public bool CanEat(Animal other)
+        {
+            if (DietaryClass != DietaryClass.Carnivore)
+            {
+                return false;
+            }
+
+            return Prey.Contains(other.Species);
+        }
+
     }
 }

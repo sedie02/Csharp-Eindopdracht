@@ -23,7 +23,24 @@ namespace Dierentuin.Services.Implementations
 
         public IList<string> CheckConstraints(Animal animal)
         {
-            return animal.CheckConstraints();
+            var results = new List<string>();
+
+            if (animal.Enclosure == null)
+            {
+                results.Add($"{animal.Name} has no enclosure assigned.");
+                return results;
+            }
+
+            if (animal.SecurityRequirement > animal.Enclosure.SecurityLevel)
+            {
+                results.Add(
+                    $"{animal.Name} requires {animal.SecurityRequirement} security, " +
+                    $"but enclosure '{animal.Enclosure.Name}' has {animal.Enclosure.SecurityLevel}."
+                );
+            }
+
+            return results;
         }
+
     }
 }

@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\izooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\izooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\implementations\\zooservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\implementations\\zooservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\ienclosureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\ienclosureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\ianimalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\ianimalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\implementations\\enclosureservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\implementations\\enclosureservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\implementations\\animalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\implementations\\animalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\models\\domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\models\\domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\migrations\\20251231183821_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\migrations\\20251231183821_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,30 +63,6 @@
       "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\data\\context\\zoodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\zooservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\zooservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\enclosureservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\enclosureservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\animalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\animalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\izooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\izooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\ienclosureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\ienclosureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\services\\interfaces\\ianimalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\services\\interfaces\\ianimalservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\models\\domain\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\models\\domain\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\models\\domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|solutionrelative:dierentuin\\models\\domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{407B1D0D-098C-1497-C780-892D2204EBEA}|Dierentuin\\Dierentuin.csproj|c:\\users\\sedie\\source\\repos\\csharp-eindopdracht\\dierentuin\\models\\enums\\habitattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,68 +114,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Animal.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Models\\Domain\\Animal.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Animal.cs",
+              "RelativeToolTip": "Dierentuin\\Models\\Domain\\Animal.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA9wF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T19:05:44.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnclosureService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Implementations\\EnclosureService.cs.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Services\\Implementations\\EnclosureService.cs.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Implementations\\EnclosureService.cs.cs",
+              "RelativeToolTip": "Dierentuin\\Services\\Implementations\\EnclosureService.cs.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:31:53.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZooService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Implementations\\ZooService.cs.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Services\\Implementations\\ZooService.cs.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Implementations\\ZooService.cs.cs",
+              "RelativeToolTip": "Dierentuin\\Services\\Implementations\\ZooService.cs.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAcwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:32:08.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEnclosureService.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
+              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:30:44.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Implementations\\AnimalService.cs.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Services\\Implementations\\AnimalService.cs.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Implementations\\AnimalService.cs.cs",
+              "RelativeToolTip": "Dierentuin\\Services\\Implementations\\AnimalService.cs.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:31:38.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAnimalService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
+              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:30:05.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IZooService.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IZooService.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\IZooService.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IZooService.cs",
+              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\IZooService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:31:12.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20251231183821_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Migrations\\20251231183821_InitialCreate.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Migrations\\20251231183821_InitialCreate.cs",
               "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Migrations\\20251231183821_InitialCreate.cs",
               "RelativeToolTip": "Dierentuin\\Migrations\\20251231183821_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T18:38:21.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnclosureConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
-              "RelativeToolTip": "Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:34:43.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ZooSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Seed\\ZooSeeder.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Data\\Seed\\ZooSeeder.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Seed\\ZooSeeder.cs",
-              "RelativeToolTip": "Dierentuin\\Data\\Seed\\ZooSeeder.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:35:38.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:35:02.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\appsettings.json",
-              "RelativeDocumentMoniker": "Dierentuin\\appsettings.json",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\appsettings.json",
-              "RelativeToolTip": "Dierentuin\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-31T15:43:49.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Program.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Program.cs",
@@ -187,7 +230,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\appsettings.json",
+              "RelativeDocumentMoniker": "Dierentuin\\appsettings.json",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\appsettings.json",
+              "RelativeToolTip": "Dierentuin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-31T15:43:49.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Dierentuin\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:35:02.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ZooSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Seed\\ZooSeeder.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Data\\Seed\\ZooSeeder.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Seed\\ZooSeeder.cs",
+              "RelativeToolTip": "Dierentuin\\Data\\Seed\\ZooSeeder.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:35:38.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnclosureConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
+              "RelativeDocumentMoniker": "Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
+              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
+              "RelativeToolTip": "Dierentuin\\Data\\Configurations\\EnclosureConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T15:34:43.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AnimalConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Configurations\\AnimalConfiguration.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Data\\Configurations\\AnimalConfiguration.cs",
@@ -199,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ZooDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Data\\Context\\ZooDbContext.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Data\\Context\\ZooDbContext.cs",
@@ -211,79 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ZooService.cs.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\ZooService.cs.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\ZooService.cs.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\ZooService.cs.cs",
-              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\ZooService.cs.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:32:08.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnclosureService.cs.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\EnclosureService.cs.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\EnclosureService.cs.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\EnclosureService.cs.cs",
-              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\EnclosureService.cs.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:31:53.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AnimalService.cs.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\AnimalService.cs.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\AnimalService.cs.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\AnimalService.cs.cs",
-              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\AnimalService.cs.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:31:38.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IZooService.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IZooService.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\IZooService.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IZooService.cs",
-              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\IZooService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:31:12.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IEnclosureService.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
-              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\IEnclosureService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:30:44.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IAnimalService.cs.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
-              "RelativeToolTip": "Dierentuin\\Services\\Interfaces\\IAnimalService.cs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T15:30:05.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Zoo.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Zoo.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Models\\Domain\\Zoo.cs",
@@ -295,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Enclosure.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Enclosure.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Models\\Domain\\Enclosure.cs",
@@ -307,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "Dierentuin\\Models\\Domain\\Category.cs",
@@ -316,18 +335,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T19:06:18.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Animal.cs",
-              "RelativeDocumentMoniker": "Dierentuin\\Models\\Domain\\Animal.cs",
-              "ToolTip": "C:\\Users\\sedie\\source\\repos\\Csharp-Eindopdracht\\Dierentuin\\Models\\Domain\\Animal.cs",
-              "RelativeToolTip": "Dierentuin\\Models\\Domain\\Animal.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA8wCEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T19:05:44.263Z"
             },
             {
               "$type": "Document",
