@@ -22,6 +22,8 @@ builder.Services.AddDbContext<ZooDbContext>(options =>
 builder.Services.AddScoped<IAnimalService, AnimalService>();
 builder.Services.AddScoped<IEnclosureService, EnclosureService>();
 builder.Services.AddScoped<IZooService, ZooService>();
+builder.Services.AddSingleton<ZooStateService>();
+
 
 var app = builder.Build();
 

@@ -23,14 +23,6 @@
         <span asp-validation-for="Species" class="text-danger"></span>
     </div>
 
-    <div class="mb-3">
-        <label asp-for="CategoryId" class="form-label">Category</label>
-        <select asp-for="CategoryId"
-                class="form-select"
-                asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
-            <option value="">-- None --</option>
-        </select>
-    </div>
 
     <div class="mb-3">
         <label asp-for="EnclosureId" class="form-label">Enclosure</label>

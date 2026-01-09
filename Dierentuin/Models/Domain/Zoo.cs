@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+using Dierentuin.Models.Enums;
 
 namespace Dierentuin.Models.Domain
+
 {
     public class Zoo
     {
@@ -10,6 +12,9 @@ namespace Dierentuin.Models.Domain
         public ICollection<Enclosure> Enclosures { get; set; } = new List<Enclosure>();
 
         public ICollection<Category> Categories { get; set; } = new List<Category>();
+
+
+        public ZooPhase CurrentPhase { get; set; } = ZooPhase.Day;
 
         public void Sunrise()
         {

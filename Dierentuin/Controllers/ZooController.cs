@@ -1,5 +1,7 @@
 ﻿using Dierentuin.Data.Context;
 using Dierentuin.Models.Domain;
+using Dierentuin.Models.Enums;
+using Dierentuin.Services.Implementations;
 using Dierentuin.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,24 +12,39 @@ namespace Dierentuin.Controllers
     {
         private readonly ZooDbContext _context;
         private readonly IZooService _zooService;
+        private readonly ZooStateService _zooState;
 
-        public ZooController(ZooDbContext context, IZooService zooService)
+        public ZooController(
+            ZooDbContext context,
+            IZooService zooService,
+            ZooStateService zooState)
         {
             _context = context;
             _zooService = zooService;
+            _zooState = zooState;
         }
 
         // GET: /Zoo
         public async Task<IActionResult> Index()
         {
             var zoo = await LoadZooAsync();
+
+            ViewBag.CurrentPhase = _zooState.CurrentPhase.ToString();
+            ViewBag.TotalAnimals = zoo.Animals.Count;
+            ViewBag.TotalEnclosures = zoo.Enclosures.Count;
+
             return View(zoo);
         }
+
+
+
 
         // POST: /Zoo/Sunrise
         [HttpPost]
         public async Task<IActionResult> Sunrise()
         {
+            _zooState.CurrentPhase = ZooPhase.Day;
+
             var zoo = await LoadZooAsync();
             _zooService.Sunrise(zoo);
             await _context.SaveChangesAsync();
@@ -35,16 +52,18 @@ namespace Dierentuin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // POST: /Zoo/Sunset
         [HttpPost]
         public async Task<IActionResult> Sunset()
         {
+            _zooState.CurrentPhase = ZooPhase.Night;
+
             var zoo = await LoadZooAsync();
             _zooService.Sunset(zoo);
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
         }
+
 
         // POST: /Zoo/Feeding
         [HttpPost]
@@ -95,5 +114,8 @@ namespace Dierentuin.Controllers
                 Enclosures = enclosures
             };
         }
+
+
+
     }
 }

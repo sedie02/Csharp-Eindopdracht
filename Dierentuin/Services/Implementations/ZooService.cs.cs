@@ -19,6 +19,8 @@ namespace Dierentuin.Services.Implementations
         }
         public void Sunrise(Zoo zoo)
         {
+            zoo.CurrentPhase = ZooPhase.Day;
+
             foreach (var enclosure in zoo.Enclosures)
             {
                 _enclosureService.Sunrise(enclosure);
@@ -27,11 +29,14 @@ namespace Dierentuin.Services.Implementations
 
         public void Sunset(Zoo zoo)
         {
+            zoo.CurrentPhase = ZooPhase.Night;
+
             foreach (var enclosure in zoo.Enclosures)
             {
                 _enclosureService.Sunset(enclosure);
             }
         }
+
 
 
         public IList<string> FeedingTime(Zoo zoo)

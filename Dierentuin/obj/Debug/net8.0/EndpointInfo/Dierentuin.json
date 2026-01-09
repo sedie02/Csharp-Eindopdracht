@@ -858,6 +858,11 @@
             "type": "string",
             "nullable": true
           },
+          "categoryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "category": {
             "$ref": "#/components/schemas/Category"
           },
@@ -875,6 +880,11 @@
             "items": {
               "type": "string"
             },
+            "nullable": true
+          },
+          "enclosureId": {
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           },
           "enclosure": {

@@ -6,8 +6,14 @@
 
 <h1>Animals</h1>
 
+
 <table class="table table-striped">
     <thead>
+        <a asp-action="Create"
+           class="btn btn-success mb-3">
+            Add New Animal
+        </a>
+
         <tr>
             <th>Name</th>
             <th>Species</th>
@@ -25,7 +31,7 @@
                 <td>@animal.Species</td>
                 <td>@animal.DietaryClass</td>
                 <td>@animal.ActivityPattern</td>
-                <td>@animal.Enclosure?.Name ?? "—"</td>
+                <td>@(animal.Enclosure?.Name ?? "—")</td>
                 <td>
                     <a asp-action="Details" asp-route-id="@animal.Id" class="btn btn-sm btn-primary">
                         Details

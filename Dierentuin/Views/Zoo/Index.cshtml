@@ -6,6 +6,16 @@
 
 <h1>Zoo Dashboard</h1>
 
+
+@if (ViewBag.TotalAnimals != null)
+{
+    <div class="alert alert-info">
+        <strong>Zoo Status</strong><br />
+        Phase: <strong>@ViewBag.CurrentPhase</strong><br />
+        Animals: @ViewBag.TotalAnimals<br />
+        Enclosures: @ViewBag.TotalEnclosures<br />
+    </div>
+}
 <hr />
 
 <h3>Zoo Actions</h3>
