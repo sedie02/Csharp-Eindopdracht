@@ -1,0 +1,59 @@
+﻿@model Dierentuin.Models.Domain.Enclosure
+
+@{
+    ViewData["Title"] = "Enclosure Details";
+}
+
+<h1>@Model.Name</h1>
+
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-3">Security Level</dt>
+    <dd class="col-sm-9">@Model.SecurityLevel</dd>
+
+    <dt class="col-sm-3">Climate</dt>
+    <dd class="col-sm-9">@Model.Climate</dd>
+
+    <dt class="col-sm-3">Habitat</dt>
+    <dd class="col-sm-9">@Model.HabitatType</dd>
+
+    <dt class="col-sm-3">Size</dt>
+    <dd class="col-sm-9">@Model.Size m²</dd>
+</dl>
+
+<hr />
+
+<h3>Animals</h3>
+<ul>
+    @foreach (var animal in Model.Animals)
+    {
+        <li>@animal.Name (@animal.Species)</li>
+    }
+</ul>
+
+<hr />
+
+<h3>Actions</h3>
+
+<div class="btn-group">
+    <form asp-action="Sunrise" asp-route-id="@Model.Id" method="post">
+        <button class="btn btn-success">Sunrise</button>
+    </form>
+
+    <form asp-action="Sunset" asp-route-id="@Model.Id" method="post">
+        <button class="btn btn-secondary">Sunset</button>
+    </form>
+
+    <form asp-action="Feeding" asp-route-id="@Model.Id" method="post">
+        <button class="btn btn-warning">Feeding Time</button>
+    </form>
+
+    <form asp-action="Constraints" asp-route-id="@Model.Id" method="get">
+        <button class="btn btn-danger">Check Constraints</button>
+    </form>
+</div>
+
+<hr />
+
+<a asp-action="Index" class="btn btn-link">Back to list</a>

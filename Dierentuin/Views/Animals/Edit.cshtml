@@ -1,0 +1,87 @@
+﻿@model Dierentuin.Models.Domain.Animal
+
+@{
+    ViewData["Title"] = "Edit Animal";
+}
+
+<h1>Edit Animal</h1>
+
+<hr />
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Species" class="form-label"></label>
+        <input asp-for="Species" class="form-control" />
+        <span asp-validation-for="Species" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+            <option value="">-- None --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="EnclosureId" class="form-label">Enclosure</label>
+        <select asp-for="EnclosureId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewBag.Enclosures, "Id", "Name"))">
+            <option value="">-- None --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Size" class="form-label"></label>
+        <select asp-for="Size" class="form-select"
+                asp-items="Html.GetEnumSelectList<Size>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DietaryClass" class="form-label"></label>
+        <select asp-for="DietaryClass" class="form-select"
+                asp-items="Html.GetEnumSelectList<DietaryClass>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ActivityPattern" class="form-label"></label>
+        <select asp-for="ActivityPattern" class="form-select"
+                asp-items="Html.GetEnumSelectList<ActivityPattern>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SecurityRequirement" class="form-label"></label>
+        <select asp-for="SecurityRequirement" class="form-select"
+                asp-items="Html.GetEnumSelectList<SecurityLevel>()">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SpaceRequirement" class="form-label"></label>
+        <input asp-for="SpaceRequirement" class="form-control" />
+        <span asp-validation-for="SpaceRequirement" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

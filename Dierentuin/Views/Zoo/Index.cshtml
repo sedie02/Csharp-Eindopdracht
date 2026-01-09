@@ -1,0 +1,62 @@
+﻿@model Dierentuin.Models.Domain.Zoo
+
+@{
+    ViewData["Title"] = "Zoo Dashboard";
+}
+
+<h1>Zoo Dashboard</h1>
+
+<hr />
+
+<h3>Zoo Actions</h3>
+
+<div class="mb-3">
+    <form asp-action="Sunrise" method="post" class="d-inline">
+        <button class="btn btn-success">Sunrise</button>
+    </form>
+
+    <form asp-action="Sunset" method="post" class="d-inline">
+        <button class="btn btn-secondary">Sunset</button>
+    </form>
+
+    <form asp-action="Feeding" method="post" class="d-inline">
+        <button class="btn btn-warning">Feeding Time</button>
+    </form>
+</div>
+
+<hr />
+
+<h3>Auto Assign</h3>
+
+<form asp-action="AutoAssign" method="post">
+    <div class="form-check">
+        <input class="form-check-input"
+               type="checkbox"
+               name="resetExistingEnclosures"
+               value="true"
+               id="resetCheckbox" />
+        <label class="form-check-label" for="resetCheckbox">
+            Reset existing enclosures
+        </label>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">
+        Auto Assign Animals
+    </button>
+</form>
+
+<hr />
+
+<h3>Status</h3>
+<ul>
+    <li>Total animals: @Model.Animals.Count</li>
+    <li>Total enclosures: @Model.Enclosures.Count</li>
+</ul>
+
+<hr />
+
+<a asp-action="Constraints" class="btn btn-danger">
+    Check Zoo Constraints
+</a>

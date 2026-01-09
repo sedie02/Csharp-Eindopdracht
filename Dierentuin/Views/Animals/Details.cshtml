@@ -1,0 +1,61 @@
+﻿@model Dierentuin.Models.Domain.Animal
+
+@{
+    ViewData["Title"] = "Animal Details";
+}
+
+<h1>@Model.Name</h1>
+
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-3">Species</dt>
+    <dd class="col-sm-9">@Model.Species</dd>
+
+    <dt class="col-sm-3">Dietary Class</dt>
+    <dd class="col-sm-9">@Model.DietaryClass</dd>
+
+    <dt class="col-sm-3">Activity Pattern</dt>
+    <dd class="col-sm-9">@Model.ActivityPattern</dd>
+
+    <dt class="col-sm-3">Size</dt>
+    <dd class="col-sm-9">@Model.Size</dd>
+
+    <dt class="col-sm-3">Security Requirement</dt>
+    <dd class="col-sm-9">@Model.SecurityRequirement</dd>
+
+    <dt class="col-sm-3">Space Requirement</dt>
+    <dd class="col-sm-9">@Model.SpaceRequirement m²</dd>
+
+    <dt class="col-sm-3">Category</dt>
+    <dd class="col-sm-9">@Model.Category?.Name ?? "—"</dd>
+
+    <dt class="col-sm-3">Enclosure</dt>
+    <dd class="col-sm-9">@Model.Enclosure?.Name ?? "—"</dd>
+</dl>
+
+<hr />
+
+<h3>Actions</h3>
+
+<div class="btn-group" role="group">
+    <form asp-action="Sunrise" asp-route-id="@Model.Id" method="post">
+        <button type="submit" class="btn btn-success">Sunrise</button>
+    </form>
+
+    <form asp-action="Sunset" asp-route-id="@Model.Id" method="post">
+        <button type="submit" class="btn btn-secondary">Sunset</button>
+    </form>
+
+    <form asp-action="Feeding" asp-route-id="@Model.Id" method="post">
+        <button type="submit" class="btn btn-warning">Feeding Time</button>
+    </form>
+
+    <form asp-action="Constraints" asp-route-id="@Model.Id" method="get">
+        <button type="submit" class="btn btn-danger">Check Constraints</button>
+    </form>
+</div>
+
+<hr />
+
+<a asp-action="Index" class="btn btn-link">Back to list</a>

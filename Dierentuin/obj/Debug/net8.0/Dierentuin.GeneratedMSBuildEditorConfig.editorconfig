@@ -22,6 +22,38 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Animals/Constraints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xDb25zdHJhaW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Animals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Animals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Animals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Animals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Enclosures/Constraints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5jbG9zdXJlc1xDb25zdHJhaW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Enclosures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5jbG9zdXJlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Enclosures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5jbG9zdXJlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +68,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Zoo/Constraints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9vXENvbnN0cmFpbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/Zoo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sedie/source/repos/Csharp-Eindopdracht/Dierentuin/Views/_ViewImports.cshtml]

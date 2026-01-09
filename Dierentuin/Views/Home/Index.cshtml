@@ -1,8 +1,31 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container text-center">
+    <h1 class="display-4 mb-4">🐾 Virtual Zoo</h1>
+
+    <p class="lead mb-5">
+        Manage animals, enclosures and the entire zoo.
+    </p>
+
+    <div class="d-grid gap-3 col-6 mx-auto">
+        <a asp-controller="Animals"
+           asp-action="Index"
+           class="btn btn-primary btn-lg">
+            🐾 Animals
+        </a>
+
+        <a asp-controller="Enclosures"
+           asp-action="Index"
+           class="btn btn-secondary btn-lg">
+            🏠 Enclosures
+        </a>
+
+        <a asp-controller="Zoo"
+           asp-action="Index"
+           class="btn btn-success btn-lg">
+            🌍 Zoo Dashboard
+        </a>
+    </div>
 </div>

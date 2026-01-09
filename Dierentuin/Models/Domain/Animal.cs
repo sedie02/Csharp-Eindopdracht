@@ -1,5 +1,6 @@
-using System.Collections.Generic;
 using Dierentuin.Models.Enums;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dierentuin.Models.Domain
 {
@@ -11,6 +12,7 @@ namespace Dierentuin.Models.Domain
 
         public string Species { get; set; } = string.Empty;
 
+        public int? CategoryId { get; set; }
         public Category? Category { get; set; }
 
         public Size Size { get; set; }
@@ -19,8 +21,10 @@ namespace Dierentuin.Models.Domain
 
         public ActivityPattern ActivityPattern { get; set; }
 
+        [NotMapped]
         public ICollection<string> Prey { get; set; } = new List<string>();
 
+        public int? EnclosureId { get; set; }
         public Enclosure? Enclosure { get; set; }
 
         public double SpaceRequirement { get; set; }

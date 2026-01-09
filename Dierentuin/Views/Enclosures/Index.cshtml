@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Dierentuin.Models.Domain.Enclosure>
+
+@{
+    ViewData["Title"] = "Enclosures";
+}
+
+<h1>Enclosures</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Security</th>
+            <th>Climate</th>
+            <th>Size (m²)</th>
+            <th>Animals</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var enclosure in Model)
+        {
+            <tr>
+                <td>@enclosure.Name</td>
+                <td>@enclosure.SecurityLevel</td>
+                <td>@enclosure.Climate</td>
+                <td>@enclosure.Size</td>
+                <td>@enclosure.Animals.Count</td>
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@enclosure.Id"
+                       class="btn btn-sm btn-primary">
+                        Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

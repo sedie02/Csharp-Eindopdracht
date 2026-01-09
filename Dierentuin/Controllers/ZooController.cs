@@ -1,0 +1,99 @@
+﻿using Dierentuin.Data.Context;
+using Dierentuin.Models.Domain;
+using Dierentuin.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace Dierentuin.Controllers
+{
+    public class ZooController : Controller
+    {
+        private readonly ZooDbContext _context;
+        private readonly IZooService _zooService;
+
+        public ZooController(ZooDbContext context, IZooService zooService)
+        {
+            _context = context;
+            _zooService = zooService;
+        }
+
+        // GET: /Zoo
+        public async Task<IActionResult> Index()
+        {
+            var zoo = await LoadZooAsync();
+            return View(zoo);
+        }
+
+        // POST: /Zoo/Sunrise
+        [HttpPost]
+        public async Task<IActionResult> Sunrise()
+        {
+            var zoo = await LoadZooAsync();
+            _zooService.Sunrise(zoo);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // POST: /Zoo/Sunset
+        [HttpPost]
+        public async Task<IActionResult> Sunset()
+        {
+            var zoo = await LoadZooAsync();
+            _zooService.Sunset(zoo);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // POST: /Zoo/Feeding
+        [HttpPost]
+        public async Task<IActionResult> Feeding()
+        {
+            var zoo = await LoadZooAsync();
+            _zooService.FeedingTime(zoo);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // POST: /Zoo/AutoAssign
+        [HttpPost]
+        public async Task<IActionResult> AutoAssign(bool resetExistingEnclosures)
+        {
+            var zoo = await LoadZooAsync();
+            _zooService.AutoAssign(zoo, resetExistingEnclosures);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // GET: /Zoo/Constraints
+        [HttpGet]
+        public async Task<IActionResult> Constraints()
+        {
+            var zoo = await LoadZooAsync();
+            var results = _zooService.CheckConstraints(zoo);
+
+            return View(results);
+        }
+
+        // Helper
+        private async Task<Zoo> LoadZooAsync()
+        {
+            var animals = await _context.Animals
+                .Include(a => a.Enclosure)
+                .ToListAsync();
+
+            var enclosures = await _context.Enclosures
+                .Include(e => e.Animals)
+                .ToListAsync();
+
+            return new Zoo
+            {
+                Animals = animals,
+                Enclosures = enclosures
+            };
+        }
+    }
+}
